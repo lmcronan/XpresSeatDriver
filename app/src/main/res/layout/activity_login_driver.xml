@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leanza.xpresseat_driver.LoginDriverActivity"
+    android:orientation="vertical"
+    android:background="#e8e8e8"
+    >
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN DRIVER"
+        android:background="#000e52"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:id="@+id/title"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_margin="10sp"/>
+
+        <EditText
+            android:id="@+id/emailLoginDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:paddingHorizontal="7sp"
+            android:paddingVertical="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_margin="10sp"/>
+
+        <EditText
+            android:id="@+id/pwordLoginDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="#ffffff"
+            android:paddingHorizontal="7sp"
+            android:paddingVertical="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"/>
+
+        <Button
+            android:id="@+id/loginDriverBtn"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="#53c653"
+            android:text="GO"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_margin="10sp"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="376dp"
+            android:onClick="logInDriver"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
